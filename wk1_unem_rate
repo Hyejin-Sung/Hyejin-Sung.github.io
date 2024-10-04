@@ -12,9 +12,9 @@
         "text": "Unemployment level (16+)",
         "subtitle": "United Kingdom (thousands) seasonally adjusted",
         "subtitleFontStyle":"italic",
-        "subtitleFontSize":10,
+        "subtitleFontSize":12,
         "anchor": "start",
-        "color": "black"},
+        "color": "pink"},
 
     "width":300,
     "height":300,
