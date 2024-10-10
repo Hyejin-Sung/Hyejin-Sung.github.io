@@ -48,7 +48,9 @@
         "title": "",
         "titleColor": "#122B39",
         "grid": false
-      }
+},
+      "scale": {
+        "domain": [65, 75]
     }
   }
 }
