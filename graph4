@@ -5,7 +5,7 @@
     "anchor": "start",
     "subtitle": "Ratio, % | Source: NESDB (WB) through ECO API",
     "fontSize": "14",
-    "subtitleFontSize": "0",
+    "subtitleFontSize": "10",
     "color": "#000000",
     "subtitleColor": "#000000"
   },
