@@ -14,7 +14,7 @@
         "subtitleFontStyle":"italic",
         "subtitleFontSize":12,
         "anchor": "start",
-        "color": "pink"},
+        "color": "black"},
 
     "width":300,
     "height":300,
