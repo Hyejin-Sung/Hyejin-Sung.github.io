@@ -110,6 +110,15 @@
             </div>
             <figure id="Location5"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
         </section>
+        <section>
+            <div class="chart-description">
+                <h2>Section 6: Employment, unemployment and economic inactivit</h2>
+                <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                   
+                </p>
+            </div>
+            <figure id="Location6"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+        </section>
     <!-- This is a script, it's a way to run JavaScript code on the page -->
     <script>
         // This is a comment in JavaScript - it's a different language to HTML and CSS
@@ -119,6 +128,7 @@
         let figure_3_spec = "wk1_unem_3countries.json"
         let figure_4_spec = "employment_gb.txt"
         let figure_5_spec = "UK_CPI.json" 
+        let figure_6_spec = "type_activity.json"
 
         vegaEmbed('#Location1', figure_1_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
         vegaEmbed('#Location2', figure_2_spec)
