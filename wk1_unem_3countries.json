@@ -12,8 +12,8 @@
       "color": "black"
     },
 
-    "height":700,
-    "width":270,
+    "height":300,
+    "width":700,
 
     "encoding": {
       "x": {"field": "date", "type": "temporal", "title": null, "axis": {"grid": false}},
