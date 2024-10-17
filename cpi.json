@@ -62,7 +62,7 @@
     "mark": "rule",
     "encoding": {
       "y": {
-        "datum": 100  // Adds the horizontal line at y = 100
+        "datum": 100  
       }
     }
   }
