@@ -16,8 +16,8 @@
         "anchor": "start",
         "color": "black"},
 
-    "width":300,
-    "height":300,
+    "width":450,
+    "height":330,
 
     "mark":{
         "type": "line",
