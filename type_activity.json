@@ -3,6 +3,12 @@
   "data": {
     "url": "https://raw.githubusercontent.com/Hyejin-Sung/Hyejin-Sung.github.io/refs/heads/main/type_activity.csv"
   },
+  "transform": [
+    {
+      "fold": ["Employment", "Unemployment", "Inactivity"],
+      "as": ["Category", "Value"]
+    }
+  ],
   "title": {
     "text": "Employment, Unemployment, and Economic Inactivity",
     "fontSize": 10,
@@ -14,64 +20,33 @@
   },
   "width": 300,
   "height": 300,
-  "layer": [
-    {
-      "mark": {
-        "type": "line",
-        "strokeWidth": 2,
-        "color": "#3498db"
-      },
-      "encoding": {
-        "x": {
-          "field": "Year",
-          "type": "temporal",
-          "axis": {
-            "grid": false
-          }
-        },
-        "y": {
-          "field": "Employment",
-          "type": "quantitative",
-          "axis": {
-            "title": "Percentage",
-            "grid": true
-          }
-        }
+  "mark": {
+    "type": "line",
+    "point": true
+  },
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "axis": {
+        "title": "Year"
       }
     },
-    {
-      "mark": {
-        "type": "line",
-        "strokeWidth": 2,
-        "color": "#FF5733"
-      },
-      "encoding": {
-        "x": {
-          "field": "Year",
-          "type": "temporal"
-        },
-        "y": {
-          "field": "Unemployment",
-          "type": "quantitative"
-        }
+    "y": {
+      "field": "Value",
+      "type": "quantitative",
+      "axis": {
+        "title": "Percentage"
       }
     },
-    {
-      "mark": {
-        "type": "line",
-        "strokeWidth": 2,
-        "color": "#2ecc71"
-      },
-      "encoding": {
-        "x": {
-          "field": "Year",
-          "type": "temporal"
-        },
-        "y": {
-          "field": "Inactivity",
-          "type": "quantitative"
-        }
+    "color": {
+      "field": "Category",
+      "type": "nominal",
+      "legend": {
+        "title": "Legend",
+        "orient": "right"
       }
     }
-  ]
+  }
 }
+
