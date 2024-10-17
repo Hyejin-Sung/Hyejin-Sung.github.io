@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "https://raw.githubusercontent.com/Hyejin-Sung/Hyejin-Sung.github.io/refs/heads/main/Book3.csv"
+    "url": "https://raw.githubusercontent.com/Hyejin-Sung/Hyejin-Sung.github.io/refs/heads/main/UK_CPI.csv"
   },
   "title":{
     "text":"CPI",
