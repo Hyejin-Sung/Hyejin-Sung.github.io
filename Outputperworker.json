@@ -1,0 +1,51 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/Hyejin-Sung/Hyejin-Sung.github.io/refs/heads/main/Outputperworker.csv"
+  },
+  "title": {"text": "UK Productivity 1960-2023"},
+  "width": 300,
+  "height": 300,
+  "mark": {"type": "line", "color": "red"},
+
+  "transform": [
+    {"filter": "datum.Year >= minYear"},
+    {"filter": "datum.Year <= maxYear"}
+  ],
+
+  "params": [
+    {
+      "name": "minYear", "value": 1960,
+      "bind": {
+        "input": "range",
+        "min": 1960,
+        "max": 2023,
+        "step": 1,
+        "name": "Start year:"
+      }
+    },
+    {
+      "name": "maxYear", "value": 2023,
+      "bind": {
+        "input": "range",
+        "min": 1960,
+        "max": 2023,
+        "step": 1,
+        "name": "End year:"
+      }
+    }
+  ],
+
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "title": null
+    },
+    "y": {
+      "field": "Outputperworker",
+      "type": "quantitative",
+      "title": "Output per worker"
+    }
+  }
+}
