@@ -43,7 +43,7 @@
       "field": "Category",
       "type": "nominal",
       "legend": {
-        "title": "Legend",
+        "title": "Status",
         "orient": "right"
       }
     }
