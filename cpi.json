@@ -40,24 +40,7 @@
       }
     }
   },
-  {
-    "mark": {
-      "type": "point",
-      "filled": true,
-      "size": 100,
-      "color": "#FF5733"
-    },
-    "encoding": {
-      "x": {
-        "field": "Year",
-        "type": "temporal"
-      },
-      "y": {
-        "field": "CPI",
-        "type": "quantitative"
-      }
-    }
-  },
+
   {
     "mark": "rule",
     "encoding": {
