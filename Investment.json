@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "UK and US investment and productivyty (1973-2021)",
+  "description": "UK and US investment and productivity (1973-2021)",
   "width": 500,
   "height": 300,
   "data": {
