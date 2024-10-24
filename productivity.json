@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
   "title": {
-      "text": "Comparing Productivity Growth Rates (1998-2023)",
+      "text": "Comparing Productivity Growth (1998-2023)",
       "subtitle": ["OECD Statistics, (2015=100)"],
       "subtitleFontStyle": "italic",
       "subtitleFontSize": 10,
