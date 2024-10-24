@@ -121,16 +121,16 @@
         </section>
         <section>
             <div class="chart-description">
-                <h2>WEEK 3-1: Productivity and investment</h2>
+                <h2>WEEK 3-1: Investment and productivity </h2>
                 <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
                    
                 </p>
             </div>
             <figure id="Location7"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
         </section>
-         <section>
+        <section>
             <div class="chart-description">
-                <h2>WEEK 3-2: UK output per worker</h2>
+                <h2>WEEK e-2: Productivity comparison</h2>
                 <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
                    
                 </p>
@@ -149,8 +149,9 @@
         let figure_4_spec = "employment_gb.txt"
         let figure_5_spec = "cpi.json" 
         let figure_6_spec = "type_activity.json"
-        let figure_7_spec = "investment.txt"
-        let figure_8_spec = "outputperworker.json"
+        let figure_7_spec = "investment.json" 
+        let figure_8_spec = "Outputperworker.json"
+       
 
         vegaEmbed('#Location1', figure_1_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
         vegaEmbed('#Location2', figure_2_spec)
@@ -160,6 +161,7 @@
         vegaEmbed('#Location6', figure_6_spec)
         vegaEmbed('#Location7', figure_7_spec)
         vegaEmbed('#Location8', figure_8_spec)
+        
        
         // Do you want to add more graphs?
         // try defining a new variable for figure_3_spec, adding VegaEmbed for Location3, and adding a new section in the HTML
