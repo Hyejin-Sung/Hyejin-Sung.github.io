@@ -1,0 +1,121 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "UK and US percentage levels over time",
+  "width": 500,
+  "height": 300,
+  "data": {
+    "url": "https://raw.githubusercontent.com/Hyejin-Sung/Hyejin-Sung.github.io/refs/heads/main/InvestmentGDP.csv"
+  },
+  "transform": [
+    {
+      "fold": ["UK Investment", "US Investment"],
+      "as": ["InvestmentType", "Investment"]
+    },
+    {
+      "calculate": "datum.InvestmentType === 'UK Investment' ? 'UK' : 'US'",
+      "as": "Country"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {"type": "bar", "opacity": 0.5},  // Bars with transparency
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal",  
+          "title": "Year",
+          "axis": {"labelAngle": 60, "labelFontSize": 10}
+        },
+        "y": {
+          "field": "Investment",  
+          "type": "quantitative",
+          "scale": {"domain": [0, 6000000]},
+          "axis": {
+            "title": "Investment",
+            "grid": true,  
+            "orient": "left"
+          }
+        },
+        "color": {
+          "field": "InvestmentType",  // Color encoding for bars (UK Investment, US Investment)
+          "type": "nominal",
+          "scale": {
+            "domain": ["UK Investment", "US Investment"],
+            "range": ["red", "blue"]  // Red for UK Investment, Blue for US Investment
+          },
+          "legend": {
+            "title": "Country (Bars)",
+            "orient": "right"
+          }
+        }
+      }
+    },
+    {
+      "mark": {"type": "line"},  // Line for UK in orange
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal",  
+          "title": "Year",
+          "axis": {"labelAngle": 60, "labelFontSize": 10}
+        },
+        "y": {
+          "field": "UK",  
+          "type": "quantitative",
+          "scale": {"domain": [0, 30]},
+          "axis": {
+            "title": "Investment/GDP (%)",
+            "format": ".1f",  
+            "grid": true,  
+            "orient": "right"
+          }
+        },
+        "color": {
+          "datum": {"expr": "'UK'"},  // Fixed color for UK line
+          "type": "nominal",
+          "scale": {
+            "domain": ["UK", "US"],
+            "range": ["orange", "green"]  // Orange for UK Line, Green for US Line
+          },
+          "legend": {
+            "title": "Country (Lines)",
+            "orient": "right"
+          }
+        }
+      }
+    },
+    {
+      "mark": {"type": "line"},  // Line for US in green
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal"
+        },
+        "y": {
+          "field": "US",  
+          "type": "quantitative",
+          "scale": {"domain": [0, 30]},
+          "axis": {
+            "title": "Investment/GDP (%)",
+            "format": ".1f",
+            "grid": true,  
+            "orient": "right"
+          }
+        },
+        "color": {
+          "datum": {"expr": "'US'"},  // Fixed color for US line
+          "type": "nominal",
+          "scale": {
+            "domain": ["UK", "US"],
+            "range": ["orange", "green"]  // Orange for UK Line, Green for US Line
+          }
+        }
+      }
+    }
+  ],
+  "resolve": {
+    "scale": {
+      "y": "independent"  // Separate Y-axis scales for bars and lines
+    }
+  }
+}
