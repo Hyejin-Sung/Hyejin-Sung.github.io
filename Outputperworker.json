@@ -5,17 +5,17 @@
     "format": {"type": "csv"}
   },
   "title": {"text": "UK Productivity 1960-2023"},
-  "width": 300,
+  "width": 500,
   "height": 300,
   "mark": {"type": "line", "color": "red"},
 
   "transform": [
     {
-      "calculate": "toNumber(datum.Year)",
+      "calculate": "datum.Year",
       "as": "Year"
     },
     {
-      "calculate": "toNumber(datum.Outputperworker)",
+      "calculate": "datum.Outputperworker",
       "as": "Outputperworker"
     },
     {"filter": "datum.Year >= minYear"},
@@ -48,8 +48,11 @@
   "encoding": {
     "x": {
       "field": "Year",
-      "type": "temporal",
-      "title": null
+      "type": "ordinal",   // Change from temporal to ordinal to treat years as categories
+      "axis": {
+        "format": "d",     // Ensure that years are displayed as whole numbers
+        "title": null
+      }
     },
     "y": {
       "field": "Outputperworker",
