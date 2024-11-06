@@ -48,9 +48,9 @@
   "encoding": {
     "x": {
       "field": "Year",
-      "type": "ordinal",   // Change from temporal to ordinal to treat years as categories
+      "type": "ordinal",  
       "axis": {
-        "format": "d",     // Ensure that years are displayed as whole numbers
+        "format": "d",    
         "title": null
       }
     },
