@@ -48,10 +48,12 @@
   "encoding": {
     "x": {
       "field": "Year",
-      "type": "ordinal",  
+      "type": "quantitative",
       "axis": {
-        "format": "d",    
-        "title": null
+        "format": "d",
+        "title": "Year",
+        "labelAngle": 45,
+        "tickCount": 10
       }
     },
     "y": {
