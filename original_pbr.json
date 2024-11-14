@@ -1,0 +1,91 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Bar chart showing the monthly PBR values.",
+    "title": {
+      "text": "Declining KOSPI Index PBR (Unit: Multiple)",
+      "color": "white",
+      "fontSize": 16,
+      "fontWeight": "bold"
+    },
+    "data": {
+      "values": [
+        {"month": "Jan", "PBR": 0.91, "color": "#4f4f4f"},
+        {"month": "Mar", "PBR": 1.0, "color": "#4f4f4f"},
+        {"month": "May", "PBR": 0.96, "color": "#4f4f4f"},
+        {"month": "Jul", "PBR": 0.99, "color": "#4f4f4f"},
+        {"month": "Sep", "PBR": 0.91, "color": "#4f4f4f"},
+        {"month": "13th Nov", "PBR": 0.85, "color": "black"}
+      ]
+    },
+    "width": 300,
+    "height": 200,
+    "layer": [
+      {
+        "mark": {
+          "type": "bar",
+          "size": 35
+        },
+        "encoding": {
+          "x": {
+            "field": "month",
+            "type": "ordinal",
+            "title": null,
+            "axis": {
+              "labelFontSize": 12,
+              "labelColor": "white",
+              "labelAngle": 0
+            },
+            "sort": ["Jan", "Mar", "May", "Jul", "Sep", "13th Nov"]
+          },
+          "y": {
+            "field": "PBR",
+            "type": "quantitative",
+            "title": null,
+            "axis": null,
+            "scale": {"domain": [0, 1.1]}
+          },
+          "color": {
+            "field": "color",
+            "type": "nominal",
+            "scale": null
+          }
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "center",
+          "baseline": "bottom",
+          "dy": -10,
+          "color": "white",
+          "fontWeight": "bold"
+        },
+        "encoding": {
+          "x": {
+            "field": "month",
+            "type": "ordinal",
+            "title": null,
+            "axis": {
+              "labelFontSize": 12,
+              "labelColor": "white",
+              "labelAngle": 0
+            },
+            "sort": ["Jan", "Mar", "May", "Jul", "Sep", "13th Nov"]
+          },
+          "y": {
+            "field": "PBR",
+            "type": "quantitative",
+            "title": null,
+            "axis": null,
+            "scale": {"domain": [0, 1.1]}
+          },
+          "text": {"field": "PBR", "type": "quantitative", "format": ".2f"}
+        }
+      }
+    ],
+    "config": {
+      "background": "#A9A9A9",
+      "view": {"stroke": "transparent"}
+    }
+  }
+  
