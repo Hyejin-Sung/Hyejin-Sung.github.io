@@ -1,0 +1,81 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Line chart showing the monthly PBR values.",
+    "title": {
+      "text": "Declining KOSPI Index PBR (Unit: Multiple)",
+      "color": "black",
+      "fontSize": 16,
+      "fontWeight": "bold"
+    },
+    "data": {
+      "values": [
+        {"month": "Jan", "PBR": 0.91},
+        {"month": "Mar", "PBR": 1.0},
+        {"month": "May", "PBR": 0.96},
+        {"month": "Jul", "PBR": 0.99},
+        {"month": "Sep", "PBR": 0.91},
+        {"month": "13th Nov", "PBR": 0.85}
+      ]
+    },
+    "width": 300,
+    "height": 200,
+    "layer": [
+      {
+        "mark": {
+          "type": "line",
+          "strokeWidth": 2,
+          "color": "black"
+        },
+        "encoding": {
+          "x": {
+            "field": "month",
+            "type": "ordinal",
+            "title": null,
+            "axis": {
+              "labelFontSize": 12,
+              "labelColor": "black",
+              "labelAngle": 0
+            },
+            "sort": ["Jan", "Mar", "May", "Jul", "Sep", "13th Nov"]
+          },
+          "y": {
+            "field": "PBR",
+            "type": "quantitative",
+            "title": null,
+            "axis": null,
+            "scale": {"domain": [0.8, 1.1]}
+          }
+        }
+      },
+      {
+        "mark": {
+          "type": "point",
+          "filled": true,
+          "color": "black",
+          "size": 60
+        },
+        "encoding": {
+          "x": {"field": "month", "type": "ordinal", "sort": ["Jan", "Mar", "May", "Jul", "Sep", "13th Nov"]},
+          "y": {"field": "PBR", "type": "quantitative"}
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "dy": -10,
+          "color": "black",
+          "fontWeight": "bold"
+        },
+        "encoding": {
+          "x": {"field": "month", "type": "ordinal", "sort": ["Jan", "Mar", "May", "Jul", "Sep", "13th Nov"]},
+          "y": {"field": "PBR", "type": "quantitative"},
+          "text": {"field": "PBR", "type": "quantitative", "format": ".2f"}
+        }
+      }
+    ],
+    "config": {
+      "background": "transparent",
+      "view": {"stroke": "transparent"}
+    }
+  }
+  
