@@ -1,0 +1,204 @@
+<!-- This HTML file provides a simple example of a portfolio page. It contains a header, a few sections, and a few charts. -->
+<!-- It works with the three css files in this folder: example1.css, example2.css and example3.css. -->
+<!-- The HTML file defines the structure of the page, and the CSS files define how it looks. -->
+<!-- The CSS examples are all designed to work with this page. Try swapping them out on line 29 and see what happens. -->
+
+<!-- Take a look around and make your own copy to adapt for your own use. -->
+
+<!-- This is a comment -->
+<!-- Comments are not displayed in the browser -->
+<!-- They can be used to leave notes in the code -->
+
+<!DOCTYPE html>
+<html> 
+    <!-- HTML is heirarchial: tags like this define elements on the page. 
+    Each tag does something different. For example:
+        - The <html> tag defines the whole document.
+        - The <h1> tag defines a large heading
+        - The <p> tag defines a paragraph
+        - Tags appear as an opening <div> and closing </div> pair
+    -->
+
+<head>    
+    <!-- The head tag links to resources our page needs and defines information about it. Tags in the <head> aren't displayed on the page. -->
+
+    <!-- This is a link to a stylesheet which contains rules about how each element on the page should be defined-->
+    <!-- Try swapping example1.css to another, and take a look at example1.css to see if you understand it-->
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>My Portfolio</title> <!-- The title displayed in the browser tab, not on the page itself -->
+
+    <!-- This is a link to the vega-lite which we're using to make graphs -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+    <style>
+        #chartGrid {
+            display: flex;
+        }
+        
+        .chart-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .chart {
+          margin-bottom: 10px; 
+        }
+      </style>
+</head>
+
+<body> 
+    <div align="left" style="margin-left: 300px;">
+<!-- The body tag contains the elements that visitors to our page will see. -->
+    <h1 class="big" style="margin-bottom: 0px;"> <!-- We have added a class to the header called "big" which we can use to style it in the CSS -->
+        <!-- This is a header, it is the largest text on the page -->
+        HJ
+    </h1>
+    <p style="margin-top: 0px; color: darkblue">
+        <!-- we're setting the margin to 0px so the header and authour name are close together -->
+        Hyejin | <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/">LinkedIn</a> | <a
+            href="https://www.github.com/YOUR_GITHUB">GitHub</a>
+    </p>
+    <h3 class="small"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
+        This is Hyejin's homepage.  
+    </h3>
+
+    <!-- We're organising the page into sections, with each section containing a chart, title and a description -->
+    <section>
+        <div class="chart-description">
+            <h2>Section 1: A basic chart</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                We've organised the page into sections, with each section containing a chart, title and a description.  
+            </p>
+        </div>
+        <figure id="Location1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+
+    <!-- Do you want to add more sections? -->
+        <!-- Try copying pasting the section above -->
+        <!-- You'll need to change the id of the figure "<figure id="Location3"... -->
+        <!-- ... and add a new variable for the graph spec in the script at the bottom of the page -->
+
+
+        <section>
+            <div class="chart-description">
+                <h2>Section 2: Unemployment rate_UK</h2>
+                <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                    Unemployment rate (thousands, +16) in the UK seasonally adjusted
+                </p>
+            </div>
+            <figure id="Location2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+        </section>
+        <section>
+            <div class="chart-description">
+                <h2>Section 3: Unemployment rate (3 countries)</h2>
+                <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                    Unemployment rate (UK, US, Canada)
+                </p>
+            </div>
+            <figure id="Location3"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+        </section>
+
+        <section>
+            <div class="chart-description">
+                <h2>WEEK 1-3: Employment to population in Great Britain</h2>
+                <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                   
+                </p>
+            </div>
+            <figure id="Location4"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+        </section>
+        <section>
+            <div class="chart-description">
+                <h2>WEEK 2-1: UK CPI </h2>
+                <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                   
+                </p>
+            </div>
+            <figure id="Location5"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+        </section>
+        <section>
+            <div class="chart-description">
+                <h2>WEEK 2-2: Employment, unemployment and economic inactivity</h2>
+                <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                   
+                </p>
+            </div>
+            <figure id="Location6"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+        </section>
+        <section>
+           
+                 <h2> WEEK3: Under-performing_How can we boost Britain’s low productivity?</h2>
+                <p> UK productivity stagnates post the financial crisis due to inadequate investment, with the investment-to-GDP ratio declining from over 20% in the last 50 years.<!-- This is a paragraph, it's the main way to display text on a web page -->
+                   
+                </p>
+                <div class="horizontal-figures">
+           
+            <figure id="Location7"></figure>
+            <figure id="Location8"></figure>
+        </div> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+            <style>
+                .section-title, .section-description {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+                .horizontal-figures {
+                  display: flex;
+                  justify-content: space-between;
+                  gap: 50px;
+                }
+            
+                .horizontal-figures figure {
+                  width: 48%;
+                }
+              </style>
+        </section>
+    <section></section>
+        <div class="chart-description">
+            <h2> WEEK 5: Scraper example (World Bank)</h2>
+            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                The World Bank offers comprehensive, reliable data for cross-country and longitudinal analysis, making it well-suited for comparative studies.
+            </p>
+        </div>
+        <figure id="Location11"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+    </section>
+    <!-- This is a script, it's a way to run JavaScript code on the page -->
+    <script>
+        // This is a comment in JavaScript - it's a different language to HTML and CSS
+
+        let figure_1_spec = "https://raw.githubusercontent.com/EconomicsObservatory/courses/main/2/s2_chart2.json"; // We're storing the URL of the graph we want to display in a variable
+        let figure_2_spec = "wk1_unem_rate"                                                                                                           // You should have a spec for a graph in this same folder. Just specify its name here, e.g. let figure_1_spec = "chart1.json"
+        let figure_3_spec = "wk1_unem_3countries.json"
+        let figure_4_spec = "employment_gb.txt"
+        let figure_5_spec = "cpi.json" 
+        let figure_6_spec = "type_activity.json"
+        let figure_7_spec = "Outputperworker.json"
+        let figure_8_spec = "InvestmentGDP.json"
+        let figure_11_spec = "gap_ex_pop_region.json"
+      
+
+        vegaEmbed('#Location1', figure_1_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
+        vegaEmbed('#Location2', figure_2_spec)
+        vegaEmbed('#Location3', figure_3_spec)
+        vegaEmbed('#Location4', figure_4_spec)
+        vegaEmbed('#Location5', figure_5_spec)
+        vegaEmbed('#Location6', figure_6_spec)
+        vegaEmbed('#Location7', figure_7_spec)
+        vegaEmbed('#Location8', figure_8_spec)
+        vegaEmbed('#Location11', figure_11_spec)
+     
+        
+       
+        // Do you want to add more graphs?
+        // try defining a new variable for figure_3_spec, adding VegaEmbed for Location3, and adding a new section in the HTML
+        // e.g. 
+        // let figure_3_spec = ...
+        // vegaEmbed('#Location3', figure_3_spec)
+
+
+    </script>
+    </div>
+</body>
+    
+</html>
