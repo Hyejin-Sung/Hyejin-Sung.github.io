@@ -57,79 +57,44 @@
     </h1>
     <p style="margin-top: 0px; color: darkblue">
         <!-- we're setting the margin to 0px so the header and authour name are close together -->
-        Hyejin | <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/">LinkedIn</a> | <a
-            href="https://www.github.com/YOUR_GITHUB">GitHub</a>
+        Hyejin | <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/">LinkedIn</a> | 
+        <a href="https://www.github.com/YOUR_GITHUB">GitHub</a>
     </p>
     <h3 class="small"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
         This is Hyejin's homepage.  
     </h3>
 
     <!-- We're organising the page into sections, with each section containing a chart, title and a description -->
-    <section>
-        <div class="chart-description">
-            <h2>Section 1: A basic chart</h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                We've organised the page into sections, with each section containing a chart, title and a description.  
-            </p>
-        </div>
-        <figure id="Location1"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
-    </section>
-
-    <!-- Do you want to add more sections? -->
-        <!-- Try copying pasting the section above -->
-        <!-- You'll need to change the id of the figure "<figure id="Location3"... -->
-        <!-- ... and add a new variable for the graph spec in the script at the bottom of the page -->
+   
 
 
         <section>
             <div class="chart-description">
-                <h2>Section 2: Unemployment rate_UK</h2>
+                <h2>(CC1) Hosting</h2>
                 <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                    Unemployment rate (thousands, +16) in the UK seasonally adjusted
+                    
                 </p>
             </div>
             <figure id="Location2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
-        </section>
-        <section>
-            <div class="chart-description">
-                <h2>Section 3: Unemployment rate (3 countries)</h2>
-                <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                    Unemployment rate (UK, US, Canada)
-                </p>
-            </div>
+     
             <figure id="Location3"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
-        </section>
-
-        <section>
-            <div class="chart-description">
-                <h2>WEEK 1-3: Employment to population in Great Britain</h2>
-                <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                   
-                </p>
-            </div>
+       
             <figure id="Location4"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
         </section>
         <section>
             <div class="chart-description">
-                <h2>WEEK 2-1: UK CPI </h2>
+                <h2>(CC2) Build own visualisation </h2>
                 <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
                    
                 </p>
             </div>
             <figure id="Location5"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
-        </section>
-        <section>
-            <div class="chart-description">
-                <h2>WEEK 2-2: Employment, unemployment and economic inactivity</h2>
-                <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                   
-                </p>
-            </div>
+        
             <figure id="Location6"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
         </section>
         <section>
            
-                 <h2> WEEK3: Under-performing_How can we boost Britain’s low productivity?</h2>
+                 <h2> (CC3) Debating: Under-performing How can we boost Britain’s low productivity?</h2>
                 <p> UK productivity stagnates post the financial crisis due to inadequate investment, with the investment-to-GDP ratio declining from over 20% in the last 50 years.<!-- This is a paragraph, it's the main way to display text on a web page -->
                    
                 </p>
@@ -154,9 +119,20 @@
                 }
               </style>
         </section>
-    <section></section>
+        <section>
+            <div class="chart-description">
+                <h2>(CC4) Replication, Re-create, then improve, someone else's chart</h2>
+                <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                    I used the line graph to clearly show trends and fluctuations over time, eliminating unnecessary elements like varied bar colours to focus on data patterns.
+                    (source: https://n.news.naver.com/mnews/article/015/0005057310 )
+                </p>
+            </div>
+            <figure id="Location9"></figure>
+            <figure id="Location10"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+        </section>
+    <section>
         <div class="chart-description">
-            <h2> WEEK 5: Scraper example (World Bank)</h2>
+            <h2> (CC5) Scraper example (World Bank)</h2>
             <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
                 The World Bank offers comprehensive, reliable data for cross-country and longitudinal analysis, making it well-suited for comparative studies.
             </p>
@@ -175,6 +151,8 @@
         let figure_6_spec = "type_activity.json"
         let figure_7_spec = "Outputperworker.json"
         let figure_8_spec = "InvestmentGDP.json"
+        let figure_9_spec = "original_pbr.json"
+        let figure_10_spec = "revised_pbr.json"
         let figure_11_spec = "gap_ex_pop_region.json"
       
 
