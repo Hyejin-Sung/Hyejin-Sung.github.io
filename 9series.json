@@ -1,0 +1,1217 @@
+[
+    {
+        "year": "1997",
+        "value": "78.6",
+        "series": "Whole Economy"
+    },
+    {
+        "year": "1998",
+        "value": "80.4",
+        "series": "Whole Economy"
+    },
+    {
+        "year": "1999",
+        "value": "81.9",
+        "series": "Whole Economy"
+    },
+    {
+        "year": "2000",
+        "value": "84.5",
+        "series": "Whole Economy"
+    },
+    {
+        "year": "2001",
+        "value": "86.0",
+        "series": "Whole Economy"
+    },
+    {
+        "year": "2002",
+        "value": "86.6",
+        "series": "Whole Economy"
+    },
+    {
+        "year": "2003",
+        "value": "88.4",
+        "series": "Whole Economy"
+    },
+    {
+        "year": "2004",
+        "value": "89.4",
+        "series": "Whole Economy"
+    },
+    {
+        "year": "2005",
+        "value": "91.1",
+        "series": "Whole Economy"
+    },
+    {
+        "year": "2006",
+        "value": "92.5",
+        "series": "Whole Economy"
+    },
+    {
+        "year": "2007",
+        "value": "94.2",
+        "series": "Whole Economy"
+    },
+    {
+        "year": "2008",
+        "value": "93.3",
+        "series": "Whole Economy"
+    },
+    {
+        "year": "2009",
+        "value": "90.4",
+        "series": "Whole Economy"
+    },
+    {
+        "year": "2010",
+        "value": "92.4",
+        "series": "Whole Economy"
+    },
+    {
+        "year": "2011",
+        "value": "93.0",
+        "series": "Whole Economy"
+    },
+    {
+        "year": "2012",
+        "value": "93.5",
+        "series": "Whole Economy"
+    },
+    {
+        "year": "2013",
+        "value": "94.0",
+        "series": "Whole Economy"
+    },
+    {
+        "year": "2014",
+        "value": "94.8",
+        "series": "Whole Economy"
+    },
+    {
+        "year": "2015",
+        "value": "95.1",
+        "series": "Whole Economy"
+    },
+    {
+        "year": "2016",
+        "value": "95.6",
+        "series": "Whole Economy"
+    },
+    {
+        "year": "2017",
+        "value": "97.3",
+        "series": "Whole Economy"
+    },
+    {
+        "year": "2018",
+        "value": "97.5",
+        "series": "Whole Economy"
+    },
+    {
+        "year": "2019",
+        "value": "98.1",
+        "series": "Whole Economy"
+    },
+    {
+        "year": "2020",
+        "value": "89.3",
+        "series": "Whole Economy"
+    },
+    {
+        "year": "2021",
+        "value": "97.0",
+        "series": "Whole Economy"
+    },
+    {
+        "year": "2022",
+        "value": "100.0",
+        "series": "Whole Economy"
+    },
+    {
+        "year": "2023",
+        "value": "99.6",
+        "series": "Whole Economy"
+    },
+    {
+        "year": "1997",
+        "value": "40.3",
+        "series": "Manufacturing"
+    },
+    {
+        "year": "1998",
+        "value": "42.6",
+        "series": "Manufacturing"
+    },
+    {
+        "year": "1999",
+        "value": "46.4",
+        "series": "Manufacturing"
+    },
+    {
+        "year": "2000",
+        "value": "50.5",
+        "series": "Manufacturing"
+    },
+    {
+        "year": "2001",
+        "value": "55.2",
+        "series": "Manufacturing"
+    },
+    {
+        "year": "2002",
+        "value": "60.2",
+        "series": "Manufacturing"
+    },
+    {
+        "year": "2003",
+        "value": "65.6",
+        "series": "Manufacturing"
+    },
+    {
+        "year": "2004",
+        "value": "70.2",
+        "series": "Manufacturing"
+    },
+    {
+        "year": "2005",
+        "value": "75.0",
+        "series": "Manufacturing"
+    },
+    {
+        "year": "2006",
+        "value": "82.1",
+        "series": "Manufacturing"
+    },
+    {
+        "year": "2007",
+        "value": "84.6",
+        "series": "Manufacturing"
+    },
+    {
+        "year": "2008",
+        "value": "86.6",
+        "series": "Manufacturing"
+    },
+    {
+        "year": "2009",
+        "value": "83.9",
+        "series": "Manufacturing"
+    },
+    {
+        "year": "2010",
+        "value": "85.9",
+        "series": "Manufacturing"
+    },
+    {
+        "year": "2011",
+        "value": "86.2",
+        "series": "Manufacturing"
+    },
+    {
+        "year": "2012",
+        "value": "88.3",
+        "series": "Manufacturing"
+    },
+    {
+        "year": "2013",
+        "value": "92.3",
+        "series": "Manufacturing"
+    },
+    {
+        "year": "2014",
+        "value": "95.0",
+        "series": "Manufacturing"
+    },
+    {
+        "year": "2015",
+        "value": "94.8",
+        "series": "Manufacturing"
+    },
+    {
+        "year": "2016",
+        "value": "93.6",
+        "series": "Manufacturing"
+    },
+    {
+        "year": "2017",
+        "value": "93.7",
+        "series": "Manufacturing"
+    },
+    {
+        "year": "2018",
+        "value": "96.5",
+        "series": "Manufacturing"
+    },
+    {
+        "year": "2019",
+        "value": "97.6",
+        "series": "Manufacturing"
+    },
+    {
+        "year": "2020",
+        "value": "102.1",
+        "series": "Manufacturing"
+    },
+    {
+        "year": "2021",
+        "value": "109.5",
+        "series": "Manufacturing"
+    },
+    {
+        "year": "2022",
+        "value": "100.0",
+        "series": "Manufacturing"
+    },
+    {
+        "year": "2023",
+        "value": "102.5",
+        "series": "Manufacturing"
+    },
+    {
+        "year": "1997",
+        "value": "106.2",
+        "series": "Construction"
+    },
+    {
+        "year": "1998",
+        "value": "108.4",
+        "series": "Construction"
+    },
+    {
+        "year": "1999",
+        "value": "112.9",
+        "series": "Construction"
+    },
+    {
+        "year": "2000",
+        "value": "111.8",
+        "series": "Construction"
+    },
+    {
+        "year": "2001",
+        "value": "109.8",
+        "series": "Construction"
+    },
+    {
+        "year": "2002",
+        "value": "107.4",
+        "series": "Construction"
+    },
+    {
+        "year": "2003",
+        "value": "102.6",
+        "series": "Construction"
+    },
+    {
+        "year": "2004",
+        "value": "99.3",
+        "series": "Construction"
+    },
+    {
+        "year": "2005",
+        "value": "95.6",
+        "series": "Construction"
+    },
+    {
+        "year": "2006",
+        "value": "95.5",
+        "series": "Construction"
+    },
+    {
+        "year": "2007",
+        "value": "91.1",
+        "series": "Construction"
+    },
+    {
+        "year": "2008",
+        "value": "84.7",
+        "series": "Construction"
+    },
+    {
+        "year": "2009",
+        "value": "74.2",
+        "series": "Construction"
+    },
+    {
+        "year": "2010",
+        "value": "85.1",
+        "series": "Construction"
+    },
+    {
+        "year": "2011",
+        "value": "90.4",
+        "series": "Construction"
+    },
+    {
+        "year": "2012",
+        "value": "90.0",
+        "series": "Construction"
+    },
+    {
+        "year": "2013",
+        "value": "94.3",
+        "series": "Construction"
+    },
+    {
+        "year": "2014",
+        "value": "94.8",
+        "series": "Construction"
+    },
+    {
+        "year": "2015",
+        "value": "96.9",
+        "series": "Construction"
+    },
+    {
+        "year": "2016",
+        "value": "92.6",
+        "series": "Construction"
+    },
+    {
+        "year": "2017",
+        "value": "93.0",
+        "series": "Construction"
+    },
+    {
+        "year": "2018",
+        "value": "90.8",
+        "series": "Construction"
+    },
+    {
+        "year": "2019",
+        "value": "90.3",
+        "series": "Construction"
+    },
+    {
+        "year": "2020",
+        "value": "83.0",
+        "series": "Construction"
+    },
+    {
+        "year": "2021",
+        "value": "93.2",
+        "series": "Construction"
+    },
+    {
+        "year": "2022",
+        "value": "100.0",
+        "series": "Construction"
+    },
+    {
+        "year": "2023",
+        "value": "104.0",
+        "series": "Construction"
+    },
+    {
+        "year": "1997",
+        "value": "86.3",
+        "series": "Wholesale & Retail Services"
+    },
+    {
+        "year": "1998",
+        "value": "82.9",
+        "series": "Wholesale & Retail Services"
+    },
+    {
+        "year": "1999",
+        "value": "80.5",
+        "series": "Wholesale & Retail Services"
+    },
+    {
+        "year": "2000",
+        "value": "87.7",
+        "series": "Wholesale & Retail Services"
+    },
+    {
+        "year": "2001",
+        "value": "86.1",
+        "series": "Wholesale & Retail Services"
+    },
+    {
+        "year": "2002",
+        "value": "85.4",
+        "series": "Wholesale & Retail Services"
+    },
+    {
+        "year": "2003",
+        "value": "85.1",
+        "series": "Wholesale & Retail Services"
+    },
+    {
+        "year": "2004",
+        "value": "86.3",
+        "series": "Wholesale & Retail Services"
+    },
+    {
+        "year": "2005",
+        "value": "90.3",
+        "series": "Wholesale & Retail Services"
+    },
+    {
+        "year": "2006",
+        "value": "97.0",
+        "series": "Wholesale & Retail Services"
+    },
+    {
+        "year": "2007",
+        "value": "96.7",
+        "series": "Wholesale & Retail Services"
+    },
+    {
+        "year": "2008",
+        "value": "94.0",
+        "series": "Wholesale & Retail Services"
+    },
+    {
+        "year": "2009",
+        "value": "86.4",
+        "series": "Wholesale & Retail Services"
+    },
+    {
+        "year": "2010",
+        "value": "94.9",
+        "series": "Wholesale & Retail Services"
+    },
+    {
+        "year": "2011",
+        "value": "96.0",
+        "series": "Wholesale & Retail Services"
+    },
+    {
+        "year": "2012",
+        "value": "95.6",
+        "series": "Wholesale & Retail Services"
+    },
+    {
+        "year": "2013",
+        "value": "93.4",
+        "series": "Wholesale & Retail Services"
+    },
+    {
+        "year": "2014",
+        "value": "99.5",
+        "series": "Wholesale & Retail Services"
+    },
+    {
+        "year": "2015",
+        "value": "98.6",
+        "series": "Wholesale & Retail Services"
+    },
+    {
+        "year": "2016",
+        "value": "99.1",
+        "series": "Wholesale & Retail Services"
+    },
+    {
+        "year": "2017",
+        "value": "102.4",
+        "series": "Wholesale & Retail Services"
+    },
+    {
+        "year": "2018",
+        "value": "100.5",
+        "series": "Wholesale & Retail Services"
+    },
+    {
+        "year": "2019",
+        "value": "100.2",
+        "series": "Wholesale & Retail Services"
+    },
+    {
+        "year": "2020",
+        "value": "85.1",
+        "series": "Wholesale & Retail Services"
+    },
+    {
+        "year": "2021",
+        "value": "96.5",
+        "series": "Wholesale & Retail Services"
+    },
+    {
+        "year": "2022",
+        "value": "100.0",
+        "series": "Wholesale & Retail Services"
+    },
+    {
+        "year": "2023",
+        "value": "100.8",
+        "series": "Wholesale & Retail Services"
+    },
+    {
+        "year": "1997",
+        "value": "102.4",
+        "series": "Transport & Storage Services"
+    },
+    {
+        "year": "1998",
+        "value": "108.7",
+        "series": "Transport & Storage Services"
+    },
+    {
+        "year": "1999",
+        "value": "110.6",
+        "series": "Transport & Storage Services"
+    },
+    {
+        "year": "2000",
+        "value": "111.1",
+        "series": "Transport & Storage Services"
+    },
+    {
+        "year": "2001",
+        "value": "107.0",
+        "series": "Transport & Storage Services"
+    },
+    {
+        "year": "2002",
+        "value": "100.4",
+        "series": "Transport & Storage Services"
+    },
+    {
+        "year": "2003",
+        "value": "104.5",
+        "series": "Transport & Storage Services"
+    },
+    {
+        "year": "2004",
+        "value": "108.6",
+        "series": "Transport & Storage Services"
+    },
+    {
+        "year": "2005",
+        "value": "108.7",
+        "series": "Transport & Storage Services"
+    },
+    {
+        "year": "2006",
+        "value": "112.0",
+        "series": "Transport & Storage Services"
+    },
+    {
+        "year": "2007",
+        "value": "114.2",
+        "series": "Transport & Storage Services"
+    },
+    {
+        "year": "2008",
+        "value": "116.6",
+        "series": "Transport & Storage Services"
+    },
+    {
+        "year": "2009",
+        "value": "103.0",
+        "series": "Transport & Storage Services"
+    },
+    {
+        "year": "2010",
+        "value": "112.1",
+        "series": "Transport & Storage Services"
+    },
+    {
+        "year": "2011",
+        "value": "115.4",
+        "series": "Transport & Storage Services"
+    },
+    {
+        "year": "2012",
+        "value": "114.8",
+        "series": "Transport & Storage Services"
+    },
+    {
+        "year": "2013",
+        "value": "118.0",
+        "series": "Transport & Storage Services"
+    },
+    {
+        "year": "2014",
+        "value": "118.8",
+        "series": "Transport & Storage Services"
+    },
+    {
+        "year": "2015",
+        "value": "107.2",
+        "series": "Transport & Storage Services"
+    },
+    {
+        "year": "2016",
+        "value": "102.6",
+        "series": "Transport & Storage Services"
+    },
+    {
+        "year": "2017",
+        "value": "104.5",
+        "series": "Transport & Storage Services"
+    },
+    {
+        "year": "2018",
+        "value": "105.3",
+        "series": "Transport & Storage Services"
+    },
+    {
+        "year": "2019",
+        "value": "103.6",
+        "series": "Transport & Storage Services"
+    },
+    {
+        "year": "2020",
+        "value": "70.5",
+        "series": "Transport & Storage Services"
+    },
+    {
+        "year": "2021",
+        "value": "77.1",
+        "series": "Transport & Storage Services"
+    },
+    {
+        "year": "2022",
+        "value": "100.0",
+        "series": "Transport & Storage Services"
+    },
+    {
+        "year": "2023",
+        "value": "99.5",
+        "series": "Transport & Storage Services"
+    },
+    {
+        "year": "1997",
+        "value": "11.8",
+        "series": "Info & Comms Services"
+    },
+    {
+        "year": "1998",
+        "value": "14.4",
+        "series": "Info & Comms Services"
+    },
+    {
+        "year": "1999",
+        "value": "16.8",
+        "series": "Info & Comms Services"
+    },
+    {
+        "year": "2000",
+        "value": "21.5",
+        "series": "Info & Comms Services"
+    },
+    {
+        "year": "2001",
+        "value": "23.3",
+        "series": "Info & Comms Services"
+    },
+    {
+        "year": "2002",
+        "value": "25.9",
+        "series": "Info & Comms Services"
+    },
+    {
+        "year": "2003",
+        "value": "30.1",
+        "series": "Info & Comms Services"
+    },
+    {
+        "year": "2004",
+        "value": "33.9",
+        "series": "Info & Comms Services"
+    },
+    {
+        "year": "2005",
+        "value": "36.8",
+        "series": "Info & Comms Services"
+    },
+    {
+        "year": "2006",
+        "value": "38.1",
+        "series": "Info & Comms Services"
+    },
+    {
+        "year": "2007",
+        "value": "42.0",
+        "series": "Info & Comms Services"
+    },
+    {
+        "year": "2008",
+        "value": "44.8",
+        "series": "Info & Comms Services"
+    },
+    {
+        "year": "2009",
+        "value": "48.4",
+        "series": "Info & Comms Services"
+    },
+    {
+        "year": "2010",
+        "value": "51.9",
+        "series": "Info & Comms Services"
+    },
+    {
+        "year": "2011",
+        "value": "55.5",
+        "series": "Info & Comms Services"
+    },
+    {
+        "year": "2012",
+        "value": "58.0",
+        "series": "Info & Comms Services"
+    },
+    {
+        "year": "2013",
+        "value": "59.5",
+        "series": "Info & Comms Services"
+    },
+    {
+        "year": "2014",
+        "value": "63.6",
+        "series": "Info & Comms Services"
+    },
+    {
+        "year": "2015",
+        "value": "68.2",
+        "series": "Info & Comms Services"
+    },
+    {
+        "year": "2016",
+        "value": "75.1",
+        "series": "Info & Comms Services"
+    },
+    {
+        "year": "2017",
+        "value": "74.9",
+        "series": "Info & Comms Services"
+    },
+    {
+        "year": "2018",
+        "value": "82.5",
+        "series": "Info & Comms Services"
+    },
+    {
+        "year": "2019",
+        "value": "89.2",
+        "series": "Info & Comms Services"
+    },
+    {
+        "year": "2020",
+        "value": "91.6",
+        "series": "Info & Comms Services"
+    },
+    {
+        "year": "2021",
+        "value": "99.4",
+        "series": "Info & Comms Services"
+    },
+    {
+        "year": "2022",
+        "value": "100.0",
+        "series": "Info & Comms Services"
+    },
+    {
+        "year": "2023",
+        "value": "96.5",
+        "series": "Info & Comms Services"
+    },
+    {
+        "year": "1997",
+        "value": "66.3",
+        "series": "Finance & Insurance Services"
+    },
+    {
+        "year": "1998",
+        "value": "68.4",
+        "series": "Finance & Insurance Services"
+    },
+    {
+        "year": "1999",
+        "value": "66.3",
+        "series": "Finance & Insurance Services"
+    },
+    {
+        "year": "2000",
+        "value": "69.3",
+        "series": "Finance & Insurance Services"
+    },
+    {
+        "year": "2001",
+        "value": "67.2",
+        "series": "Finance & Insurance Services"
+    },
+    {
+        "year": "2002",
+        "value": "70.1",
+        "series": "Finance & Insurance Services"
+    },
+    {
+        "year": "2003",
+        "value": "73.1",
+        "series": "Finance & Insurance Services"
+    },
+    {
+        "year": "2004",
+        "value": "77.1",
+        "series": "Finance & Insurance Services"
+    },
+    {
+        "year": "2005",
+        "value": "88.5",
+        "series": "Finance & Insurance Services"
+    },
+    {
+        "year": "2006",
+        "value": "86.3",
+        "series": "Finance & Insurance Services"
+    },
+    {
+        "year": "2007",
+        "value": "105.7",
+        "series": "Finance & Insurance Services"
+    },
+    {
+        "year": "2008",
+        "value": "105.7",
+        "series": "Finance & Insurance Services"
+    },
+    {
+        "year": "2009",
+        "value": "102.0",
+        "series": "Finance & Insurance Services"
+    },
+    {
+        "year": "2010",
+        "value": "104.0",
+        "series": "Finance & Insurance Services"
+    },
+    {
+        "year": "2011",
+        "value": "97.5",
+        "series": "Finance & Insurance Services"
+    },
+    {
+        "year": "2012",
+        "value": "97.7",
+        "series": "Finance & Insurance Services"
+    },
+    {
+        "year": "2013",
+        "value": "95.0",
+        "series": "Finance & Insurance Services"
+    },
+    {
+        "year": "2014",
+        "value": "94.1",
+        "series": "Finance & Insurance Services"
+    },
+    {
+        "year": "2015",
+        "value": "90.8",
+        "series": "Finance & Insurance Services"
+    },
+    {
+        "year": "2016",
+        "value": "97.1",
+        "series": "Finance & Insurance Services"
+    },
+    {
+        "year": "2017",
+        "value": "103.8",
+        "series": "Finance & Insurance Services"
+    },
+    {
+        "year": "2018",
+        "value": "101.1",
+        "series": "Finance & Insurance Services"
+    },
+    {
+        "year": "2019",
+        "value": "97.8",
+        "series": "Finance & Insurance Services"
+    },
+    {
+        "year": "2020",
+        "value": "95.5",
+        "series": "Finance & Insurance Services"
+    },
+    {
+        "year": "2021",
+        "value": "96.8",
+        "series": "Finance & Insurance Services"
+    },
+    {
+        "year": "2022",
+        "value": "100.0",
+        "series": "Finance & Insurance Services"
+    },
+    {
+        "year": "2023",
+        "value": "97.3",
+        "series": "Finance & Insurance Services"
+    },
+    {
+        "year": "1997",
+        "value": "84.7",
+        "series": "Professional Services"
+    },
+    {
+        "year": "1998",
+        "value": "87.1",
+        "series": "Professional Services"
+    },
+    {
+        "year": "1999",
+        "value": "88.1",
+        "series": "Professional Services"
+    },
+    {
+        "year": "2000",
+        "value": "89.2",
+        "series": "Professional Services"
+    },
+    {
+        "year": "2001",
+        "value": "90.4",
+        "series": "Professional Services"
+    },
+    {
+        "year": "2002",
+        "value": "93.0",
+        "series": "Professional Services"
+    },
+    {
+        "year": "2003",
+        "value": "96.7",
+        "series": "Professional Services"
+    },
+    {
+        "year": "2004",
+        "value": "102.1",
+        "series": "Professional Services"
+    },
+    {
+        "year": "2005",
+        "value": "100.0",
+        "series": "Professional Services"
+    },
+    {
+        "year": "2006",
+        "value": "103.7",
+        "series": "Professional Services"
+    },
+    {
+        "year": "2007",
+        "value": "101.9",
+        "series": "Professional Services"
+    },
+    {
+        "year": "2008",
+        "value": "100.3",
+        "series": "Professional Services"
+    },
+    {
+        "year": "2009",
+        "value": "95.8",
+        "series": "Professional Services"
+    },
+    {
+        "year": "2010",
+        "value": "98.5",
+        "series": "Professional Services"
+    },
+    {
+        "year": "2011",
+        "value": "98.2",
+        "series": "Professional Services"
+    },
+    {
+        "year": "2012",
+        "value": "96.7",
+        "series": "Professional Services"
+    },
+    {
+        "year": "2013",
+        "value": "97.0",
+        "series": "Professional Services"
+    },
+    {
+        "year": "2014",
+        "value": "94.9",
+        "series": "Professional Services"
+    },
+    {
+        "year": "2015",
+        "value": "95.1",
+        "series": "Professional Services"
+    },
+    {
+        "year": "2016",
+        "value": "91.2",
+        "series": "Professional Services"
+    },
+    {
+        "year": "2017",
+        "value": "94.2",
+        "series": "Professional Services"
+    },
+    {
+        "year": "2018",
+        "value": "92.8",
+        "series": "Professional Services"
+    },
+    {
+        "year": "2019",
+        "value": "90.7",
+        "series": "Professional Services"
+    },
+    {
+        "year": "2020",
+        "value": "87.2",
+        "series": "Professional Services"
+    },
+    {
+        "year": "2021",
+        "value": "94.7",
+        "series": "Professional Services"
+    },
+    {
+        "year": "2022",
+        "value": "100.0",
+        "series": "Professional Services"
+    },
+    {
+        "year": "2023",
+        "value": "98.9",
+        "series": "Professional Services"
+    },
+    {
+        "year": "1997",
+        "value": "110.1",
+        "series": "Government Services"
+    },
+    {
+        "year": "1998",
+        "value": "112.1",
+        "series": "Government Services"
+    },
+    {
+        "year": "1999",
+        "value": "109.7",
+        "series": "Government Services"
+    },
+    {
+        "year": "2000",
+        "value": "108.5",
+        "series": "Government Services"
+    },
+    {
+        "year": "2001",
+        "value": "112.4",
+        "series": "Government Services"
+    },
+    {
+        "year": "2002",
+        "value": "108.6",
+        "series": "Government Services"
+    },
+    {
+        "year": "2003",
+        "value": "106.7",
+        "series": "Government Services"
+    },
+    {
+        "year": "2004",
+        "value": "105.9",
+        "series": "Government Services"
+    },
+    {
+        "year": "2005",
+        "value": "105.6",
+        "series": "Government Services"
+    },
+    {
+        "year": "2006",
+        "value": "103.5",
+        "series": "Government Services"
+    },
+    {
+        "year": "2007",
+        "value": "103.3",
+        "series": "Government Services"
+    },
+    {
+        "year": "2008",
+        "value": "102.0",
+        "series": "Government Services"
+    },
+    {
+        "year": "2009",
+        "value": "98.2",
+        "series": "Government Services"
+    },
+    {
+        "year": "2010",
+        "value": "96.1",
+        "series": "Government Services"
+    },
+    {
+        "year": "2011",
+        "value": "98.0",
+        "series": "Government Services"
+    },
+    {
+        "year": "2012",
+        "value": "99.4",
+        "series": "Government Services"
+    },
+    {
+        "year": "2013",
+        "value": "96.9",
+        "series": "Government Services"
+    },
+    {
+        "year": "2014",
+        "value": "96.5",
+        "series": "Government Services"
+    },
+    {
+        "year": "2015",
+        "value": "97.4",
+        "series": "Government Services"
+    },
+    {
+        "year": "2016",
+        "value": "98.9",
+        "series": "Government Services"
+    },
+    {
+        "year": "2017",
+        "value": "101.2",
+        "series": "Government Services"
+    },
+    {
+        "year": "2018",
+        "value": "101.5",
+        "series": "Government Services"
+    },
+    {
+        "year": "2019",
+        "value": "102.9",
+        "series": "Government Services"
+    },
+    {
+        "year": "2020",
+        "value": "82.4",
+        "series": "Government Services"
+    },
+    {
+        "year": "2021",
+        "value": "94.8",
+        "series": "Government Services"
+    },
+    {
+        "year": "2022",
+        "value": "100.0",
+        "series": "Government Services"
+    },
+    {
+        "year": "2023",
+        "value": "100.4",
+        "series": "Government Services"
+    }
+]
