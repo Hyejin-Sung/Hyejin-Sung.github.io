@@ -1,0 +1,66 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Labour Productivity Trends by Year (1997-2023)",
+  "title": {
+    "text": "Labour Productivity Trends",
+    "subtitle": "Comparison by Sector (1997-2023, 2022=100)",
+    "anchor": "start",
+    "fontSize": 16
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/Hyejin-Sung/Hyejin-Sung.github.io/refs/heads/main/9series.json"
+  },
+  "facet": {
+    "field": "series",
+    "type": "nominal",
+    "sort": [
+      "Whole Economy",
+      "Construction",
+      "Finance & Insurance Services",
+      "Info & Comms Services",
+      "Manufacturing",
+      "Professional Services",
+      "Transport & Storage Services",
+      "Wholesale & Retail Services",
+      "Government Services"
+    ]
+  },
+  "columns": 3,
+  "spec": {
+    "mark": "line",
+    "encoding": {
+      "x": {
+        "field": "year",
+        "type": "ordinal",
+        "title": "Year"
+      },
+      "y": {
+        "field": "value",
+        "type": "quantitative",
+        "title": "Productivity Index"
+      },
+      "tooltip": [
+        {
+          "field": "year",
+          "type": "ordinal",
+          "title": "Year"
+        },
+        {
+          "field": "value",
+          "type": "quantitative",
+          "title": "Value"
+        },
+        {
+          "field": "series",
+          "type": "nominal",
+          "title": "Series"
+        }
+      ]
+    }
+  },
+  "resolve": {
+    "scale": {
+      "y": "independent"
+    }
+  }
+}
