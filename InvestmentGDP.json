@@ -6,6 +6,15 @@
   "data": {
     "url": "https://raw.githubusercontent.com/Hyejin-Sung/Hyejin-Sung.github.io/refs/heads/main/InvestmentGDP.csv"
   },
+  "title": {
+      "text": "UK and US investment and productivity",
+      "subtitle": [
+        "from 1973 to 2021, Source: OECD"
+      ],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "color": "black"
+    },
   "transform": [
     {
       "fold": ["UK Investment", "US Investment"],
@@ -41,7 +50,7 @@
           "type": "nominal",
           "scale": {
             "domain": ["UK", "US"],
-            "range": ["red", "blue"]  
+            "range": ["red", "blue"]
           },
           "legend": {
             "title": "Country",
@@ -66,7 +75,7 @@
           }
         },
         "color": {
-          "value": "red"  
+          "value": "red"
         }
       }
     },
@@ -86,14 +95,14 @@
           }
         },
         "color": {
-          "value": "blue" 
+          "value": "blue"
         }
       }
     }
   ],
   "resolve": {
     "scale": {
-      "y": "independent"  
+      "y": "independent"
     }
   }
 }
