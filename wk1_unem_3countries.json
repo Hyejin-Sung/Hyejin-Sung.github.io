@@ -13,7 +13,7 @@
     },
 
     "height":300,
-    "width":700,
+    "width":400,
 
     "encoding": {
       "x": {"field": "date", "type": "temporal", "title": null, "axis": {"grid": false}},
