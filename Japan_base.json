@@ -1,0 +1,30 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 400,
+    "height": 400,
+    "title": {
+      "text": "Japan",
+      "fontSize": 12,
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "middle"
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/Hyejin-Sung/Hyejin-Sung.github.io/main/japan-with-regions-updated.geojson",
+      "format": {"type": "json", "property": "features"}
+    },
+    "projection": {"type": "mercator"},
+    "mark": {
+      "type": "geoshape",
+      "stroke": "black",
+      "strokeWidth": 0.5,
+      "fill": "#DAEEED"
+    },
+    "encoding": {
+      "tooltip": [
+        {"field": "properties.name", "type": "nominal", "title": "Name"},
+        {"field": "properties.name_en", "type": "nominal", "title": "Name (English)"}
+      ]
+    }
+  }
+  
