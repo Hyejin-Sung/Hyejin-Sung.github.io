@@ -1,0 +1,40 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+     "title": {"text": "Dry pasta prices","subtitle": [
+          "Source: Long Run Prices Database"
+        ],
+        "subtitleFontStyle": "italic",
+        "subtitleFontSize": 10,
+        "anchor": "start",
+        "color": "black"},
+    "width": 500,
+    "height": 300,
+    "description": "A line chart showing the average price of dry pasta over years.",
+    "data": {
+      "url": "https://raw.githubusercontent.com/Hyejin-Sung/Hyejin-Sung.github.io/refs/heads/main/Dry_pasta_average.csv"
+    },
+    "mark": {
+      "type": "line",
+      "point": {
+      "filled": true,
+      "fill": "red" },
+      "color": "red"
+    },
+    "encoding": {
+      "x": {
+        "field": "year",
+        "type": "ordinal",
+        "title": "Year"
+      },
+      "y": {
+        "field": "price",
+        "type": "quantitative",
+        "title": "Average Price"
+      },
+      "tooltip": [
+        {"field": "year", "type": "ordinal", "title": "Year"},
+        {"field": "price", "type": "quantitative", "title": "Average Price",  "format": ".2f"}
+      ]
+    }
+  }
+  
