@@ -5,8 +5,8 @@
     "title": {
       "text": "Japan",
       "subtitle": [
-        "Social Welfare Percentage by Prefecture",
-        "Data: https://www.e-stat.go.jp"
+        "Social welfare expenditure to budget by Prefecture",
+        "Source: https://www.e-stat.go.jp"
       ],
       "subtitleFontStyle": "italic",
       "subtitleFontSize": 10,
@@ -36,7 +36,7 @@
         "lookup": "AREA_clean",
         "from": {
           "data": {
-            "url": "https://raw.githubusercontent.com/Hyejin-Sung/Hyejin-Sung.github.io/main/japan-with-regions-updated.geojson",
+            "url": "https://raw.githubusercontent.com/Hyejin-Sung/Hyejin-Sung.github.io/main/japan-with-regions-updated1.geojson",
             "format": {"property": "features"}
           },
           "key": "properties.name_en",
