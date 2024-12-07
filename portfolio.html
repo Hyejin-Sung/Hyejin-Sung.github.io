@@ -1,59 +1,32 @@
-<!-- This HTML file provides a simple example of a portfolio page. It contains a header, a few sections, and a few charts. -->
-<!-- It works with the three css files in this folder: example1.css, example2.css and example3.css. -->
-<!-- The HTML file defines the structure of the page, and the CSS files define how it looks. -->
-<!-- The CSS examples are all designed to work with this page. Try swapping them out on line 29 and see what happens. -->
 
-<!-- Take a look around and make your own copy to adapt for your own use. -->
-
-<!-- This is a comment -->
-<!-- Comments are not displayed in the browser -->
-<!-- They can be used to leave notes in the code -->
 
 <!DOCTYPE html>
 <html> 
-    <!-- HTML is heirarchial: tags like this define elements on the page. 
-    Each tag does something different. For example:
-        - The <html> tag defines the whole document.
-        - The <h1> tag defines a large heading
-        - The <p> tag defines a paragraph
-        - Tags appear as an opening <div> and closing </div> pair
-    -->
 
 <head>    
-    <!-- The head tag links to resources our page needs and defines information about it. Tags in the <head> aren't displayed on the page. -->
-
-    <!-- This is a link to a stylesheet which contains rules about how each element on the page should be defined-->
-    <!-- Try swapping example1.css to another, and take a look at example1.css to see if you understand it-->
+    <head style="font-family: Arial, sans-serif;">
     <link rel="stylesheet" type="text/css" href="index.css">
     <title>My Portfolio</title> <!-- The title displayed in the browser tab, not on the page itself -->
 
-    <!-- This is a link to the vega-lite which we're using to make graphs -->
+    <!-- This page include 10 coding challenge-->
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
     <style>
-        #chartGrid {
+           #chartGrid {
             display: flex;
-        }
-        
-        .chart-container {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
-        .chart {
-          margin-bottom: 10px; 
+            flex-wrap: wrap;
+            gap: 20px;
         }
       </style>
 </head>
 
 <body> 
-    <div align="left" style="margin-left: 300px;">
-<!-- The body tag contains the elements that visitors to our page will see. -->
+    <body style="margin: 20px 160px 40px 200px; padding: 20px; font-family: Arial, sans-serif;background-color: rgb(253, 249, 243);">
     <h1 class="big" style="margin-bottom: 0px;"> <!-- We have added a class to the header called "big" which we can use to style it in the CSS -->
         <!-- This is a header, it is the largest text on the page -->
-        HJ
+        My portfolio
     </h1>
     <p style="margin-top: 0px; color: darkblue">
         <!-- we're setting the margin to 0px so the header and authour name are close together -->
@@ -61,12 +34,8 @@
         <a href="https://www.github.com/YOUR_GITHUB">GitHub</a>
     </p>
     <h3 class="small"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
-        This is Hyejin's homepage.  
+        This page includes 10 coding challenges.  
     </h3>
-
-    <!-- We're organising the page into sections, with each section containing a chart, title and a description -->
-   
-
 
         <section>
             <div class="chart-description">
@@ -75,27 +44,25 @@
                     
                 </p>
             </div>
-            <figure id="Location2"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
-     
-            <figure id="Location3"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
-       
-            <figure id="Location4"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+            <figure id="Location3"></figure> 
+            <figure id="Location4"></figure> 
         </section>
         <section>
             <div class="chart-description">
                 <h2>(CC2) Build own visualisation </h2>
                 <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                   
+                    I created the following charts from <a href="https://www.economicsobservatory.com/create">Economics Observatory</a>. 
                 </p>
             </div>
             <figure id="Location5"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
-        
-            <figure id="Location6"></figure> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
+            <figure id="Location6"></figure>
+            
         </section>
         <section>
            
                  <h2> (CC3) Debating: Under-performing How can we boost Britain’s low productivity?</h2>
-                <p> UK productivity stagnates post the financial crisis due to inadequate investment, with the investment-to-GDP ratio declining from over 20% in the last 50 years.<!-- This is a paragraph, it's the main way to display text on a web page -->
+                <p> UK productivity stagnates post the financial crisis due to inadequate investment, 
+                    with the investment-to-GDP ratio declining from over 20% in the last 50 years.<!-- This is a paragraph, it's the main way to display text on a web page -->
                    
                 </p>
                 <div class="horizontal-figures">
@@ -103,21 +70,7 @@
             <figure id="Location7"></figure>
             <figure id="Location8"></figure>
         </div> <!-- we give it an id so we can put a vega-lite graph here with VegaEmbed -->
-            <style>
-                .section-title, .section-description {
-      text-align: center;
-      margin-bottom: 10px;
-    }
-                .horizontal-figures {
-                  display: flex;
-                  justify-content: space-between;
-                  gap: 50px;
-                }
-            
-                .horizontal-figures figure {
-                  width: 48%;
-                }
-              </style>
+           
         </section>
         <section>
             <div class="chart-description">
@@ -126,8 +79,9 @@
                     <img src="pbr.png" alt="decreasing PBR" width="600">
                 </p>
                 <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                    I used the line graph to clearly show trends and fluctuations over time, eliminating unnecessary elements like varied bar colours to focus on data patterns.
-                    (source: https://n.news.naver.com/mnews/article/015/0005057310 )
+                    I used the line graph to clearly show trends and fluctuations over time, 
+                    eliminating unnecessary elements like varied bar colours to focus on data patterns.
+                    (source: <a href="https://n.news.naver.com/mnews/article/015/0005057310">Korean news article</a>)
                 </p>
             </div>
             <figure id="Location9"></figure>
@@ -137,47 +91,68 @@
         <div class="chart-description">
             <h2> (CC5) Scraper example (World Bank)</h2>
             <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                The World Bank offers comprehensive, reliable data for cross-country and longitudinal analysis, making it well-suited for comparative studies.
+                The World Bank offers comprehensive, reliable data for cross-country and longitudinal analysis, 
+                making it well-suited for comparative studies.
             </p>
-            <h2>Section 1: my python Notebook
+            <h2>Part A: My python Notebook
             </h2>
             <p><a href="https://colab.research.google.com/drive/1_XmgZ-33vJyjpK-pFsoJQsSVilrXO3QS#scrollTo=afvRTMw0Ijir">Link to my work in Google Collab python notebook </a></p>
         </div>
     </section>
     <section>
         <div class="chart-description">
-            <h2>Section 2: Graph from the scrapping data</h2>
+            <h2>Part B: Graph from the scrapping data</h2>
             <p> </p>
         </div>
         <figure id="Location11"></figure> 
     </section>
     <h2> (CC6) Loops. Build a dashboard</h2>
     <p> 
-        The World Bank offers comprehensive, reliable data for cross-country and longitudinal analysis, making it well-suited for comparative studies.
+        I used the ONS API to create nine different series in labour productivity.
     </p>
-    <h2>Section 1: my python Notebook
+    <h2>Part A: My python Notebook
     </h2>
     <p><a href="https://github.com/Hyejin-Sung/Hyejin-Sung.github.io/blob/main/portfolio.html">Link to my work in Google Collab python notebook </a></p>
 </div>
 </section>
 <section>
 <div class="chart-description">
-    <h2>Section 2: dashboard</h2>
+    <h2>Part B: Dashboard</h2>
     <p> </p>
 </div>
 <figure id="Location12"></figure> 
           <section>
         <div class="chart-description">
             <h2> (CC7) Maps. Base maps and choropleths</h2>
-            <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
-                for cross-country and longitudinal analysis, making it well-suited for comparative studies.
-            </p>
+            
         <h2>Map 1: Basemap
             </h2>
             <figure id="Location13"></figure> 
             <h2>Map 2: Chotopleth map
             </h2>
+            <p> 
+                This map shows social welfare expenditure as a percentage of the budget by prefecture from 1975 to 2020. 
+                Overall, the level of expenditure has increased over time.
+            </p>
         <figure id="Location14"></figure> 
+            </div>
+    </section>
+
+    <section>
+        <div class="chart-description">
+            <h2> (CC8) Big Data. Extracting a story from millions of prices.</h2>
+            <p> 
+            Merged "db_date" and "db_prices", keeping year, item_id, and price as a CSV. 
+            In Colab, calculated yearly average prices and plotted on Vega-Lite. 
+            </p>
+        <h2>Graph 1: Yearly average prices for dry pasta
+            </h2>
+            <figure id="Location15"></figure> 
+            <h2>Graph 2: Dry pasta prices by store </h2>
+            <p>
+            Filtered AutoCPI data for Dry pasta (cpi.id = 210204), plotting prices from 2023 to 2024 by store.
+            </p>
+        <figure id="Location16"></figure> 
             </div>
     </section>
     <!-- This is a script, it's a way to run JavaScript code on the page -->
@@ -196,8 +171,10 @@
         let figure_10_spec = "revised_pbr.json"
         let figure_11_spec = "g7_education.json"
         let figure_12_spec = "9series_graph.json"
-        let figure_13_spec = "map_base.json"
-        let figure_14_spec = "map_tip.json"
+        let figure_13_spec = "Japan_base.json"
+        let figure_14_spec = "Japan_tip.json"
+        let figure_15_spec = "Dry_pasta_average.json"
+        let figure_16_spec = "Dry_pasta_store.json"
       
 
         vegaEmbed('#Location1', figure_1_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
@@ -214,6 +191,8 @@
         vegaEmbed('#Location12', figure_12_spec)
         vegaEmbed('#Location13', figure_13_spec)
         vegaEmbed('#Location14', figure_14_spec)
+        vegaEmbed('#Location15', figure_15_spec)
+        vegaEmbed('#Location16', figure_16_spec)
      
         
        
