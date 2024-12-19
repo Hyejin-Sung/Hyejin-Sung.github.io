@@ -3,64 +3,64 @@ Year,Rank,Category,Value
 2011,2,K-Pop,14.9
 2011,3,Korean Food,14.5
 2011,4,Electronics,14.0
-2011,5,Korean Drinks,6.7
-2012,1,Drama,15.8
-2012,2,K-Pop,12.9
-2012,3,Korean Food,12.3
-2012,4,Electronics,12.3
-2012,5,Beauty,7.9
-2013,1,IT Industry,14.5
-2013,2,Korean Food,12.0
-2013,3,K-Pop,10.7
+2011,5,Korean War,6.7
+2012,1,Korean Food,15.8
+2012,2,Drama,12.9
+2012,3,Electronics,12.3
+2012,4,K-Pop,12.3
+2012,5,Korean War,7.9
+2013,1,Eletronics,14.5
+2013,2,K-Pop,12.0
+2013,3,Korean Food,10.7
 2013,4,Drama,8.4
-2013,5,Beauty,6.0
-2014,1,Drama,17.2
+2013,5,Korean War,6.0
+2014,1,K-Pop,17.2
 2014,2,Korean Food,10.5
-2014,3,K-Pop,10.4
-2014,4,Beauty,9.9
-2014,5,North Korea,7.9
-2015,1,Drama,20.1
-2015,2,K-Pop,12.1
-2015,3,Korean Food,9.7
-2015,4,Beauty,9.5
-2015,5,North Korea,9.2
-2016,1,Drama,12.5
+2014,3,Electronics,10.4
+2014,4,Drama,9.9
+2014,5,Beauty,7.9
+2015,1,K-Pop,20.1
+2015,2,Korean Food,12.1
+2015,3,Electronics,9.7
+2015,4,Drama,9.5
+2015,5,Beauty,9.2
+2016,1,Korean Food,12.5
 2016,2,K-Pop,12.1
-2016,3,Korean Food,10.2
+2016,3,Electronics,10.2
 2016,4,Beauty,9.9
-2016,5,Korean Drinks,7.8
-2017,1,Drama,16.6
-2017,2,K-Pop,9.9
-2017,3,Korean Food,7.7
+2016,5,North Korea,7.5
+2017,1,K-Pop,16.6
+2017,2,North Korea,8.5
+2017,3,Electronics,7.7
 2017,4,Beauty,7.6
 2017,5,Korean Drinks,7.5
 2018,1,Drama,17.3
 2018,2,K-Pop,12.2
-2018,3,Korean Food,6.9
+2018,3,Korean Food,9.9
 2018,4,Beauty,6.8
 2018,5,Korean Drinks,5.6
-2019,1,Drama,18.5
-2019,2,K-Pop,12.0
-2019,3,Korean Food,7.8
-2019,4,Beauty,7.3
-2019,5,Korean Drinks,6.4
-2020,1,Drama,16.8
-2020,2,K-Pop,11.5
-2020,3,Korean Food,6.9
-2020,4,Beauty,6.6
-2020,5,Korean Drinks,6.3
-2021,1,Drama,14.0
-2021,2,K-Pop,11.5
-2021,3,Korean Food,7.5
-2021,4,Beauty,7.0
-2021,5,Korean Drinks,5.2
-2022,1,Drama,14.3
-2022,2,K-Pop,13.2
-2022,3,Korean Food,7.4
-2022,4,Beauty,7.0
-2022,5,Korean Drinks,5.6
-2023,1,Drama,17.2
-2023,2,K-Pop,13.2
-2023,3,Korean Food,7.0
-2023,4,Beauty,7.0
-2023,5,Korean Drinks,5.6
+2019,1,K-Pop,18.5
+2019,2,Korean Food,12.2
+2019,3,Drama,7.8
+2019,4,Electronics,7.3
+2019,5,Hallyu star,5.8
+2020,1,K-Pop,16.8
+2020,2,Korean Food,12.0
+2020,3,Drama,7.8
+2020,4,Hallyu star,6.6
+2020,5,Drama,6.4
+2021,1,K-Pop,14.0
+2021,2,Korean Food,11.5
+2021,3,Drama,7.5
+2021,4,Hallyu star,7.0
+2021,5,Electronics,6.8
+2022,1,K-Pop,14.3
+2022,2,Korean Food,13.2
+2022,3,Hallyu star,7.4
+2022,4,Drama,6.6
+2022,5,Electronics,5.6
+2023,1,K-Pop,17.2
+2023,2,Korean Food,13.2
+2023,3,Drama,7.0
+2023,4,Electronics,6.3
+2023,5,Beauty,5.2
