@@ -1,11 +1,184 @@
+
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    
-    <title>Project</title>
+<html> 
+
+<head>    
+    <head style="font-family: Arial, sans-serif;">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>My Project</title> <!-- The title displayed in the browser tab, not on the page itself -->
+
+    <!-- This page include my project-->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+
+       <style>
+        
+        .center-graph {
+            display: flex;
+            justify-content: center; 
+            align-items: center;    
+            margin: 20px auto;      
+            max-width: 100%;        
+            text-align: center;    
+        }
+        
+        .title-container {
+            display: flex;
+            flex-direction: column; 
+            gap: 50px; 
+        }
+    </style>
 </head>
-<body>
-    <p>My project page</p>
-</body>
-</html>
+
+<body> 
+    <body style="margin: 20px 160px 40px 200px; padding: 20px; font-family: Arial, sans-serif;background-color: rgb(253, 249, 243);">
+        <p style="margin-top: 0px; color: darkblue">
+            <!-- we're setting the margin to 0px so the header and authour name are close together -->
+            <a href="https://hyejin-sung.github.io">Home</a> | <a href="https://hyejin-sung.github.io/portfolio.html">Portfolio</a> | 
+            <a href="https://github.com/Hyejin-Sung/Hyejin-Sung.github.io">GitHub</a>
+        </p>
+        <P></P>
+        <div class="title-container">
+    <h1 class="big" style="margin-bottom: 0px;"> <!-- We have added a class to the header called "big" which we can use to style it in the CSS -->
+        K-pop and the Korean Economy:  <br>
+        Can K-pop's Global Success Drive Economic Growth?
+    </h1>
+
+    <h2>
+     
+        The Aim of this Project</h2></div>
+        <p>   
+The global impact of K-pop represents a significant cultural and economic phenomenon. Recent examples highlight this trend: BLACKPINK member Rose's song "APT" achieved global success, driving her management company's stock price up by over 30%. BTS demonstrated comparable commercial power, generating over $170 million in tour revenue in 2019, surpassing all American bands except Metallica.
+
+This economic potential has gained attention at the international level. UNCTAD (United Nations Conference on Trade and Development) published a report in 2024 titled "K-content goes global," where Marisa Henderson, head of UNCTAD's creative economy section, emphasized how South Korea's strategic focus on the creative economy demonstrates the potential for creativity and innovation to drive economic transformation and growth.
+The primary research question emerges: How, and to what extent, does Korean cultural content, particularly K-pop, contribute to South Korea's economic growth?
+  
+        </p>
+
+        <section>
+            <div class="chart-description">
+                <h3>Global interest in K-pop</h3>
+                <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                    This map illustrates the search interest for Blackpink and BTS based on Google Trends data. K-pop's global reach is evident across the map, with particularly intense popularity in Southeast Asia, Central Asia, West Africa, and several European countries. While I aimed to embed a real-time visual through Dash and ngrok, free ngrok was valid only for two hours. As such, I used this map instead.
+                </p>
+            </div>
+            <iframe
+            src="https://hyejin-sung.github.io/searchinterest.html" 
+            width="100%" 
+            height="800px" 
+            frameborder="0" 
+            allowfullscreen>
+        </iframe>
+        <a href="https://colab.research.google.com/drive/1xkhAjjhG4oji8qMXP_oBinnCwH63s_cy?usp=sharing">my co-lab notebook</a>
+        </section>
+        <section>
+            <div class="chart-description">
+                <h3>Evolving K-pop Popularity</h3>
+                <p> <!-- This is a paragraph, it's the main way to display text on a web page -->
+                    The graph tracks cumulative views of official YouTube channels for three prominent groups - Blackpink, BTS, and TWICE - from 2016 to 2024 (noting that BTS's official channel relaunched in 2019). Together, these groups have amassed almost 5 trillion total views in 2024 since the view has skyrocketed from 2018.
+                </p>
+            </div>
+            <iframe
+            src="https://hyejin-sung.github.io/kpopyoutube.html"
+            width="100%" 
+            height="400px" 
+            frameborder="0" 
+            allowfullscreen>
+        </iframe>
+        <a href="https://colab.research.google.com/drive/1Ec5kh7pxj-NvPfCHrRkVbOnaNuZsJ5Kg?usp=sharing">my co-lab notebook</a>
+        </section>
+        <section>
+            <P></P>
+                <h3>K-pop Experience Among Cultural Consumers</h3>
+                <div class="center-graph">
+                <figure id="Location1"></figure> </div>
+                <p> 
+                    This visualization represents the percentage of respondents who have experienced K-pop, specifically among those who have engaged with any form of Korean culture (Hallyu). The data indicates that people in Asian countries who have experienced Korean culture are highly likely to have encountered K-pop.
+                </p>
+        </section>
+        <section>
+            <P></P>
+                <h3>K-pop Overseas Sales Analysis</h3>
+                <div class="center-graph">
+                <figure id="Location2"></figure> </div>
+                <p> K-pop's primary revenue streams include streaming services, album sales, and concert revenues, all of which saw growth from 2022 to 2023. Concert revenue showed the most significant increase, largely due to the lifting of COVID-19 restrictions that had previously prevented live performances.  
+                </p>
+           
+        </section>  
+         <section>
+            
+                <h3>Regional Distribution of Streaming Revenue
+                </h3>
+                <div class="center-graph">
+                <figure id="Location3"></figure> </div>
+              <P> Streaming service revenue has shown rapid growth since 2017. From 2018 onward, the listener base expanded beyond Asia into the Americas and Europe, indicating growing global market penetration.
+                </p>
+        </section>
+        <section>
+        <P></P>
+            <h3>Korea's Cultural Identity
+            </h3>
+            <div class="center-graph">
+            <figure id="Location4"></figure> </div>
+          <P> K-pop has emerged as one of the primary associations when people familiar with Korean culture think about Korea over 10 years, motivating K-pop fans to visit Korea.<br><br><br>
+            The South Korean government has effectively integrated Korean culture including K-pop into its tourism promotion strategies such as K-pop Experience Zones and BTS and BLACKPINK as Global Tourism Ambassadors, leveraging the global appeal of Korean pop culture to attract international visitors.
+           </P>
+        </section>
+        <section>
+      
+            <h3>Korea's Cultural Identity
+            </h3>
+            <div class="center-graph">
+            <figure id="Location5"></figure> </div>
+          <P>The Korean government implemented "Visit Korea Years" campaigns during three periods: 2010-2012, 2016-2018 and 2023-2024. These campaigns featured major K-pop concerts, cultural events, and themed travel packages centred around popular K-dramas and K-pop events. Since 2007, visitor numbers have shown an upward trend (excluding the COVID-19 period), correlating with increased recognition of Korean culture.
+            
+        </section>
+        <section>
+            <h3>Expenditure of Foreign Tourists in Korea
+            </h3>
+            <div class="center-graph">
+            <figure id="Location6"></figure> </div>
+            <p>Furthermore, the per capita expenditure of foreign tourists increased significantly in 2019, highlighting the tourism industry's growing economic significance.
+            </P>
+        </section>
+        <h2>
+            Conclusion</h2>
+            <p> Overall, while K-pop's direct contribution to economic growth appears modest, its impact is more significant when considering broader effects. The industry creates a ripple effect by increasing interest in Korea, leading to higher consumption of Korean dramas, food, other cultural products, and travelling to Korea - suggesting its total economic contribution likely exceeds direct revenue estimates. Additionally, K-pop's market expansion from its traditional Asian base into Europe and the Americas indicates substantial growth potential for further economic contribution. Future research could examine the specific mechanisms linking cultural popularity to economic outcomes and precisely estimate the broad economic effects.</p>
+            <h2>
+     
+                DATA used and Challenges in data cleaning
+            </h2>
+                <p> I used Google Trends data alongside YouTube viewership statistics accessed through their API, with particular attention to major K-pop groups like BTS and Blackpink. Additional cultural and tourism insights were gathered from publications by the Korean  Organisations. The major challenge concerned language and search term variations, in Google and YouTube data collection. Video titles appeared in multiple languages across numerous channels, complicating consistent tracking. I resolved this by focusing on the major K-pop groups and the official channel IDs of K-pop groups in Youtube, providing a more reliable metric of popularity. Accessibility on K-pop sales data presented the another challenge. Since it was challenging to data to estimate the relevant sales and Korean organisations typically don't provide open APIs or raw data, I created CSV files based on the publications</p>
+        <script>
+            
+        
+
+            let figure_1_spec = "experience.json"
+            let figure_2_spec = "oversea.json"                                                                                                        
+            let figure_3_spec = "streaming_interactive.json"
+            let figure_4_spec = "kpop_rank.json" 
+            let figure_5_spec = "arrival_v.json"
+            let figure_6_spec = "expenditure.json"
+            
+      
+          
+    
+            vegaEmbed('#Location1', figure_1_spec) 
+            vegaEmbed('#Location2', figure_2_spec)
+            vegaEmbed('#Location3', figure_3_spec)
+            vegaEmbed('#Location4', figure_4_spec)
+            vegaEmbed('#Location5', figure_5_spec)
+            vegaEmbed('#Location6', figure_6_spec)
+            
+          
+         
+            
+           
+        </script>
+        </div>
+    </body>
+        
+    </html>
