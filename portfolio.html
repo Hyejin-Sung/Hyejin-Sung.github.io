@@ -30,8 +30,8 @@
     </h1>
     <p style="margin-top: 0px; color: darkblue">
         <!-- we're setting the margin to 0px so the header and authour name are close together -->
-        Hyejin | <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/">LinkedIn</a> | 
-        <a href="https://www.github.com/YOUR_GITHUB">GitHub</a>
+        <a href="https://hyejin-sung.github.io">Home</a> | <a href="https://hyejin-sung.github.io/project.html">Project</a> | 
+        <a href="https://github.com/Hyejin-Sung/Hyejin-Sung.github.io">GitHub</a>
     </p>
     <h3 class="small"> <!-- We have added a class to the header called "small" which we can use to style it in the CSS -->
         This page includes 10 coding challenges.  
@@ -155,7 +155,40 @@
         <figure id="Location16"></figure> 
             </div>
     </section>
-    <!-- This is a script, it's a way to run JavaScript code on the page -->
+    <section>
+        <div class="chart-description">
+            <h2> (CC9) Analytics charts.</h2>
+           
+        <h2>Graph 1: Heat map
+            </h2>
+            <iframe
+            src="https://hyejin-sung.github.io/searchinterest.html" 
+            width="100%" 
+            height="400px" 
+            frameborder="0" 
+            allowfullscreen>
+        </iframe>
+        <a href="https://colab.research.google.com/drive/1xkhAjjhG4oji8qMXP_oBinnCwH63s_cy?usp=sharing">my co-lab notebook</a>
+            <h2>Graph 2: Bubble chart </h2>
+            
+        <figure id="Location17"></figure> 
+            </div>
+    </section>
+    <section>
+        <div class="chart-description">
+            <h2> (CC10) Interactive Visualisations</h2>
+           
+        <h2>Graph 1: Interactive through legend
+            </h2>
+            <figure id="Location18"></figure> 
+            <p> If you click on a legend item, the selected region is highlighted.</p>
+            <h2>Graph 2: Interactive head map </h2>
+            <p> Hover over any country to see the number of BLACKPINK concerts held there. The selected country will be highlighted while others fade into the background</p>
+            <a href=" https://colab.research.google.com/drive/1c3EwNQekC7gC0Qo6bl4D8d32tGUswExA?usp=sharing">my co-lab notebook
+           
+        <figure id="Location19"></figure> 
+            </div>
+    </section>
     <script>
         
 
@@ -175,8 +208,9 @@
         let figure_14_spec = "Japan_tip.json"
         let figure_15_spec = "Dry_pasta_average.json"
         let figure_16_spec = "Dry_pasta_store.json"
-      
-
+        let figure_17_spec = "kpop_rank.json" 
+ let figure_18_spec = "streaming_interactive.json" 
+ let figure_19_spec = "blackpink.json" 
         vegaEmbed('#Location1', figure_1_spec) // We're using the vegaEmbed function to put a graph in the element with id figure_1
         vegaEmbed('#Location2', figure_2_spec)
         vegaEmbed('#Location3', figure_3_spec)
@@ -193,14 +227,13 @@
         vegaEmbed('#Location14', figure_14_spec)
         vegaEmbed('#Location15', figure_15_spec)
         vegaEmbed('#Location16', figure_16_spec)
+        vegaEmbed('#Location17', figure_17_spec)
+        vegaEmbed('#Location18', figure_18_spec)
+        vegaEmbed('#Location19', figure_19_spec)
      
         
        
-        // Do you want to add more graphs?
-        // try defining a new variable for figure_3_spec, adding VegaEmbed for Location3, and adding a new section in the HTML
-        // e.g. 
-        // let figure_3_spec = ...
-        // vegaEmbed('#Location3', figure_3_spec)
+      
 
 
     </script>
