@@ -1,0 +1,51 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+   "title": {
+    "text": "Have you ever experienced K-pop?",
+    "subtitle": "Source: Korean Foundation for International Cultural Exchange",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+
+  "width": 500,
+  "height": 400,
+  "data": {
+    "values": [
+      {"Country": "Indonesia", "Category": "Experienced", "Percentage": 90.2},
+      {"Country": "Thailand", "Category": "Experienced", "Percentage": 87.2},
+      {"Country": "Vietnam", "Category": "Experienced", "Percentage": 87.0},
+      {"Country": "Malaysia", "Category": "Experienced", "Percentage": 86.8},
+      {"Country": "Philippines", "Category": "Experienced", "Percentage": 80.3},
+      {"Country": "Argentina", "Category": "Experienced", "Percentage": 71.5},
+      {"Country": "Brazil", "Category": "Experienced", "Percentage": 69.5},
+      {"Country": "Canada", "Category": "Experienced", "Percentage": 66.0},
+      {"Country": "USA", "Category": "Experienced", "Percentage": 65.4},
+      {"Country": "Germany", "Category": "Experienced", "Percentage": 55.9},
+      {"Country": "Italy", "Category": "Experienced", "Percentage": 48.4},
+      {"Country": "Egypt", "Category": "Experienced", "Percentage": 39.7}
+    ]
+  },
+  "mark": "bar",
+  "encoding": {
+    "y": {
+      "field": "Country",
+      "type": "ordinal",
+      "sort": "-x",
+      "title": null  
+    },
+    "x": {
+      "field": "Percentage",
+      "type": "quantitative",
+      "title": "Percentage (%)"
+    },
+    "color": {
+      "value": "#6CAE75"  
+    },
+    "tooltip": [
+      {"field": "Country", "type": "ordinal", "title": "Country"},
+      {"field": "Percentage", "type": "quantitative", "title": "Percentage (%)"}
+    ]
+  }
+}
