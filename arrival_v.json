@@ -1,0 +1,72 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Visitor Arrivals in South Korea (2000–2023)",
+      "subtitle": "Source: datalab.visitkorea.or.kr",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+  
+    "width": 500,
+    "height": 300,
+  
+    "data": {
+      "url": "https://raw.githubusercontent.com/Hyejin-Sung/Hyejin-Sung.github.io/refs/heads/main/arrival.json"
+    },
+  
+    "transform": [
+      { "filter": "datum.Year >= minYear" },
+      { "filter": "datum.Year <= maxYear" }
+    ],
+  
+    "params": [
+      {
+        "name": "minYear",
+        "value": 2000,
+        "bind": {
+          "input": "range",
+          "min": 2000,
+          "max": 2023,
+          "step": 1,
+          "name": "Start year:"
+        }
+      },
+      {
+        "name": "maxYear",
+        "value": 2023,
+        "bind": {
+          "input": "range",
+          "min": 2000,
+          "max": 2023,
+          "step": 1,
+          "name": "End year:"
+        }
+      }
+    ],
+  
+    "mark": {
+      "type": "line",
+      "color": "cadetblue",
+      "point": true
+    },
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "quantitative",
+        "title": "Year",
+        "axis": {"format": "d"}
+      },
+      "y": {
+        "field": "TotalArrivals",
+        "type": "quantitative",
+        "title": "Total Arrivals (Persons)",
+        "axis": {"titleColor": "cadetblue"}
+      },
+      "tooltip": [
+        {"field": "Year", "type": "quantitative", "title": "Year"},
+        {"field": "TotalArrivals", "type": "quantitative", "title": "Total Arrivals (Persons)"}
+      ]
+    }
+}
