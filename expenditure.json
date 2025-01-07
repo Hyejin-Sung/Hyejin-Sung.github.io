@@ -1,0 +1,57 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 400,
+  "height": 300,
+  "title": {
+    "text": "Per Capita Expenditure of Foreign Tourists in Korea",
+    "subtitle": "Source: Korean culture & tourism institute",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {"Year": 2010, "Per Capita Expenditure ($)": 1298.3},
+      {"Year": 2011, "Per Capita Expenditure ($)": 1409.7},
+      {"Year": 2012, "Per Capita Expenditure ($)": 1529.5},
+      {"Year": 2013, "Per Capita Expenditure ($)": 1648.2},
+      {"Year": 2014, "Per Capita Expenditure ($)": 1605.5},
+      {"Year": 2015, "Per Capita Expenditure ($)": 1712.5},
+      {"Year": 2016, "Per Capita Expenditure ($)": 1625.3},
+      {"Year": 2017, "Per Capita Expenditure ($)": 1481.6},
+      {"Year": 2018, "Per Capita Expenditure ($)": 1342.4},
+      {"Year": 2019, "Per Capita Expenditure ($)": 1239.2},
+      {"Year": 2020, "Per Capita Expenditure ($)": 3884.9},
+      {"Year": 2021, "Per Capita Expenditure ($)": 4217},
+      {"Year": 2022, "Per Capita Expenditure ($)": 3046.6},
+      {"Year": 2023, "Per Capita Expenditure ($)": 2152.1}
+    ]
+  },
+  "mark": {
+    "type": "line",
+    "tooltip": true
+  },
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "ordinal",
+      "title": "Year",
+      "axis": {
+        "labelAngle": -45,
+        "grid": true
+      }
+    },
+    "y": {
+      "field": "Per Capita Expenditure ($)",
+      "type": "quantitative",
+      "axis": {
+        "title": null,
+        "grid": true
+      }
+    },
+    "color": {
+      "value": "#6CAE75"
+    }
+  }
+}
