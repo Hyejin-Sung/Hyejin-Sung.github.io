@@ -1,0 +1,101 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Estimated streaming services revenue by region (2014-2023)",
+      "subtitle": "Source: Korea culture & tourism institute",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "width": 400,
+    "height": 400,
+    "data": {
+      "values": [
+        {"Year": 2014, "Region": "Americas", "Sales": 44},
+        {"Year": 2014, "Region": "Asia", "Sales": 646},
+        {"Year": 2014, "Region": "Europe", "Sales": 96},
+        {"Year": 2014, "Region": "Oceania & Others", "Sales": 6},
+        {"Year": 2015, "Region": "Americas", "Sales": 31},
+        {"Year": 2015, "Region": "Asia", "Sales": 645},
+        {"Year": 2015, "Region": "Europe", "Sales": 54},
+        {"Year": 2015, "Region": "Oceania & Others", "Sales": 4},
+        {"Year": 2016, "Region": "Americas", "Sales": 36},
+        {"Year": 2016, "Region": "Asia", "Sales": 774},
+        {"Year": 2016, "Region": "Europe", "Sales": 47},
+        {"Year": 2016, "Region": "Oceania & Others", "Sales": 19},
+        {"Year": 2017, "Region": "Americas", "Sales": 50},
+        {"Year": 2017, "Region": "Asia", "Sales": 672},
+        {"Year": 2017, "Region": "Europe", "Sales": 27},
+        {"Year": 2017, "Region": "Oceania & Others", "Sales": 19},
+        {"Year": 2018, "Region": "Americas", "Sales": 81},
+        {"Year": 2018, "Region": "Asia", "Sales": 787},
+        {"Year": 2018, "Region": "Europe", "Sales": 68},
+        {"Year": 2018, "Region": "Oceania & Others", "Sales": 16},
+        {"Year": 2019, "Region": "Americas", "Sales": 149},
+        {"Year": 2019, "Region": "Asia", "Sales": 1016},
+        {"Year": 2019, "Region": "Europe", "Sales": 88},
+        {"Year": 2019, "Region": "Oceania & Others", "Sales": 24},
+        {"Year": 2020, "Region": "Americas", "Sales": 117},
+        {"Year": 2020, "Region": "Asia", "Sales": 1176},
+        {"Year": 2020, "Region": "Europe", "Sales": 104},
+        {"Year": 2020, "Region": "Oceania & Others", "Sales": 45},
+        {"Year": 2021, "Region": "Americas", "Sales": 243},
+        {"Year": 2021, "Region": "Asia", "Sales": 1183},
+        {"Year": 2021, "Region": "Europe", "Sales": 246},
+        {"Year": 2021, "Region": "Oceania & Others", "Sales": 42},
+        {"Year": 2022, "Region": "Americas", "Sales": 310},
+        {"Year": 2022, "Region": "Asia", "Sales": 1387},
+        {"Year": 2022, "Region": "Europe", "Sales": 348},
+        {"Year": 2022, "Region": "Oceania & Others", "Sales": 54},
+        {"Year": 2023, "Region": "Americas", "Sales": 480},
+        {"Year": 2023, "Region": "Asia", "Sales": 1566},
+        {"Year": 2023, "Region": "Europe", "Sales": 489},
+        {"Year": 2023, "Region": "Oceania & Others", "Sales": 68}
+      ]
+    },
+    "params": [
+      {
+        "name": "legendSelection",
+        "select": {
+          "type": "point",
+          "fields": ["Region"]
+        },
+        "bind": "legend"
+      }
+    ],
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "ordinal",
+        "axis": {
+          "title": "Year",
+          "labelAngle": -45
+        }
+      },
+      "y": {
+        "field": "Sales",
+        "type": "quantitative",
+        "title": "Sales (100 million KRW)"
+      },
+      "color": {
+        "field": "Region",
+        "type": "nominal",
+        "title": "Region"
+      },
+      "opacity": {
+        "condition": {
+          "param": "legendSelection",
+          "value": 1
+        },
+        "value": 0.2
+      },
+      "tooltip": [
+        {"field": "Year", "type": "ordinal", "title": "Year"},
+        {"field": "Region", "type": "nominal", "title": "Region"},
+        {"field": "Sales", "type": "quantitative", "title": "Sales (억원)"}
+      ]
+    }
+  }
+  
