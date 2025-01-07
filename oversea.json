@@ -1,0 +1,57 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Estimated K-pop Overseas Sales (2022 vs 2023)",
+    "subtitle": "Source: Korea culture & tourism institute",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "width": 500,
+  "height": 300,
+  "data": {
+    "values": [
+      {"Year": "2022", "Category": "Streaming Services", "Sales": 209.85},
+      {"Year": "2023", "Category": "Streaming Services", "Sales": 260.33},
+      {"Year": "2022", "Category": "Album Sales", "Sales": 343.66},
+      {"Year": "2023", "Category": "Album Sales", "Sales": 388.88},
+      {"Year": "2022", "Category": "Concert Revenue", "Sales": 368.28},
+      {"Year": "2023", "Category": "Concert Revenue", "Sales": 588.46}
+    ]
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "Category",
+      "type": "nominal",
+      "axis": {
+        "title": "Category",
+        "labelAngle": -45 
+      },
+      "sort": ["Streaming Services", "Album Sales", "Concert Revenue"]
+    },
+    "xOffset": {
+      "field": "Year",
+      "type": "nominal",
+      "scale": {"padding": 0.2}
+    },
+    "y": {
+      "field": "Sales",
+      "type": "quantitative",
+      "axis": {"title": "Sales (in billion KRW)"}
+    },
+    "color": {
+      "field": "Year",
+      "type": "nominal",
+      "legend": {"title": "Year"},
+      "scale": {
+        "domain": ["2022", "2023"],
+        "range": ["#FFDF70", "#6CAE75"]  
+      }
+    },
+    "tooltip": [
+      {"field": "Sales", "type": "quantitative", "title": "Sales (in billion KRW)", "format": ".1f"}
+    ]
+  }
+}
